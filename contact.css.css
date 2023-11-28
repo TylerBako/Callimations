@@ -1,0 +1,11 @@
+.container .box {
+    position: sticky;
+    width: 855px;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    transform: translate(-50, -50);
+    padding: 25px 25px 45px 25px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 1%;
+}

@@ -1,0 +1,94 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    background-color: #5c2553;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+.container .box {
+    position: sticky;
+    width: 900px;
+    margin: auto;
+    transform: translate(-50, -50);
+    padding: 25px 25px 45px 25px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: auto;
+    min-width: 50%;
+    box-shadow: 0 0 15px #ed72ec;
+}
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin: 0;
+    font-family: system-ui;
+    position: relative;
+
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.box-image {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+html {
+    background-image: url("../peak_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    word-spacing: 10em;
+    text-align: center;
+    border: 10px 10px;
+    border-color: black;
+    background-color: #5c2553;
+    border-radius: 0px 0px 5px 5px; 
+}
+
+li {
+    display: inline-block;
+}
+
+a{
+    color: white;
+}
+a:active {
+    color: gray;
+}
+
+li a:hover {
+    color: #1c0830;
+}
+
+img {
+    border-radius: 2%;
+}
+
+video {
+    width: 900px;
+    border-radius: 1%; /* This changes the edges of the element to a more rounded position*/
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out forwards;
+}
