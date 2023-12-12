@@ -1,0 +1,115 @@
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    background-color: #5c2553;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    margin: 0;
+    font-family: system-ui;
+    display: flex; 
+}
+
+html {
+    background-image: url("../peak_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    background-color: #a732d1;
+}
+
+li {
+    display: inline-block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav {
+    word-spacing: 8em;
+    border: 10px 10px;
+    border-color: black;
+    background-color: #5c2553;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.pfp {
+    border-radius: 50%;
+    height: auto;
+    width: 400px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container .box {
+    position: sticky;
+    width: 75%;
+    margin: auto;
+    transform: translate(-50, -50);
+    padding: 25px 25px 45px 25px;
+    border-radius: 20px;
+    background-color: white;
+    min-width: 50%;
+    overflow: auto;
+    box-shadow: 0 0 15px #ed72ec;
+}
+
+p {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+a:active {
+    color: gray;
+}
+
+li a:hover {
+    color: #1c0830;
+}
+
+div.container {
+    display: flexbox;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    position: sticky;
+    margin: auto;
+
+}
