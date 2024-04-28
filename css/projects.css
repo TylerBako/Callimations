@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 100px;
     text-align: center;
     color: white;
@@ -10,7 +10,7 @@ h1 {
 
 .container .box {
     position: relative;
-    width: 855px;
+    width: 75%;
     margin: auto;
     transform: translate(-50, -50);
     padding: 25px 25px 45px 25px;
@@ -42,9 +42,6 @@ body {
 }
 
 
-img {
-    margin: 15px;
-}
 
 html {
     background-image: url("../peak_background.jpg");
@@ -72,6 +69,11 @@ nav {
     font-weight: 600;
 }
 
+img.emote {
+    display: inline-block;
+    position: center;
+    margin: auto;
+}
 
 p {
     text-align: center;
