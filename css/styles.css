@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 100px;
     text-align: center;
     color: white;
@@ -16,12 +16,18 @@ body {
     margin: 0;
     font-family: system-ui;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
 }
 
 html {
     background-image: url("../peak_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
 }
 
 @keyframes fadeInAnimation {
@@ -50,7 +56,7 @@ li {
 
 nav {
     word-spacing: 8em;
-    border: 10px 10px;
+    border: 10% 10%;
     border-color: black;
     background-color: #5c2553;
     border-radius: 0px 0px 5px 5px;
@@ -68,8 +74,8 @@ nav {
 }
 
 .container .box {
-    position: relative;
-    width: 855px;
+    position: sticky;
+    width: 100%;
     margin: auto;
     transform: translate(-50, -50);
     padding: 25px 25px 45px 25px;
@@ -79,6 +85,7 @@ nav {
     overflow: auto;
     box-shadow: 0 0 15px #ed72ec;
     margin-top: 5px;
+
 }
 
 p {
@@ -100,15 +107,16 @@ li a:hover {
     color: #1c0830;
 }
 
-
-
-.container {
-    width: 60%;
-    margin: auto;
+/*This is to change the view for smaller devices*/
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
 }
 
-h1 {
-    position: sticky;
-    margin: auto;
-
+/* This is to change the view to even smaller devices */
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
 }
