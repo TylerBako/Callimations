@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 100px;
     text-align: center;
     color: white;
@@ -9,11 +9,11 @@ h1 {
 }
 
 .container .box {
-    position: relative;
-    width: 855px;
+    position: sticky;
+    width: 50%;
     margin: auto;
     transform: translate(-50, -50);
-    padding: 25px 25px 45px 25px;
+    padding: 25px 25px 5px 25px;
     border-radius: 20px;
     background-color: white;
     min-width: 50%;
@@ -100,11 +100,45 @@ li a:hover {
 img.emote {
     display: inline-block;
     position: center;
-    margin: 5px 15px;
+    margin: 5px 5px;
+    padding: 5px;
 }
 
 
 img {
-    display: relative;
-    
+    display: inline-block;
+    position: sticky;
+ 
+}
+
+.aston {
+    padding: 5px;
+    width: 45%;
+    min-width: 30%;
+    height: 20%;
+}
+
+.radz {
+    padding: 5px;
+    max-width: 45%;
+    min-width: 30%;
+}
+
+img, .aston {
+    border-radius: 5px 5px 5px 5px;
+}
+
+.Kwame {
+    height: 40%;
+    width: 45%;
+}
+
+.radz-aunt {
+    height: 100%;
+    width: 50%;
+}
+
+.emote {
+    width: 30%;
+    height: 40%;
 }
