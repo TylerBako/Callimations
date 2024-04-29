@@ -9,16 +9,18 @@
     min-width: 50%;
     overflow: auto;
     box-shadow: 0 0 15px #ed72ec;
+    margin-top: 125px;
 }
 
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 100px;
     text-align: center;
     color: white;
     margin: 0px;
     background-color: #5c2553;
     border-radius: 5px 5px 0px 0px;
+    justify-content: center;
 }
 
 body {
@@ -53,6 +55,8 @@ html {
     background-image: url("../peak_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
 }
 
 ul {
@@ -178,4 +182,18 @@ form button:hover {
 
 form .textarea-field .error-txt {
     margin-top: -10px;
+}
+
+/*This is to change the view for smaller devices*/
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* This is to change the view to even smaller devices */
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
 }
