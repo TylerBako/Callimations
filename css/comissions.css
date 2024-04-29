@@ -104,7 +104,6 @@ img.emote {
     padding: 5px;
 }
 
-
 img {
     display: inline-block;
     position: sticky;
@@ -141,4 +140,18 @@ img, .aston {
 .emote {
     width: 30%;
     height: 40%;
+}
+
+/*This is to change the view for smaller devices*/
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* This is to change the view to even smaller devices */
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
 }
