@@ -1,5 +1,5 @@
 h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', cursive;
     font-size: 100px;
     text-align: center;
     color: white;
@@ -233,4 +233,18 @@ h2 {
 
 video {
     margin-top: 10px;
+}
+
+/*This is to change the view for smaller devices*/
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* This is to change the view to even smaller devices */
+@media (max-width: 576px) {
+    .container {
+        width: 95%;
+    }
 }
